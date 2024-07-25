@@ -71,7 +71,8 @@ info=game['info']
 players=info['participants']
 match_Id=metadata['matchId']
 teams=info['teams']
-
+print(f"{match_Id}")
 for player in players:
    
+   print(f"{player['riotIdGameName']} {player['championName']} KDA:{player['kills']}/{player['deaths']}/{player['assists']}")
 
